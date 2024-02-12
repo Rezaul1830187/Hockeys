@@ -5,7 +5,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hockeys</title>
 </head>
-<body>
-    Hello World
+<!-- tailwind and daisyui -->
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.6.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<!-- manrope font -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+<!-- font awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+    .font-manrope {
+        font-family: 'manrope', sans-serif;
+    }
+    .btn-primary {
+      background-color: #FF4240;
+      border-radius: 8px;
+      padding: 15px 24px 15px 24px;
+      border: none;
+      color: white;
+    }
+</style>
+
+
+
+<body class="font-manrope mx-16 items-center mt-8">
+  <header> 
+    <div class="navbar bg-base-100">
+      <div>
+        <div tabindex="0" role="button" class="btn btn-ghost btn-circle md:hidden">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+        </div>
+      </div>
+      <div class="navbar-start">
+        <p class="text-4xl font-extrabold">Hockey<span class="text-red-500">'</span>s</p>
+      </div>
+      <div class="navbar-center hidden md:flex">
+        <ul class="menu menu-horizontal">
+          <li class="text-red-500"><a href="">Home</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Pages</a></li>
+          <li><a href="">Blog</a></li>
+          <li><a href="">Contact</a></li>
+        </ul>
+      </div>
+      <div class="navbar-end">
+        <i class="fa fa-search p-5 text-gray-400 hidden sm:flex"></i>
+        <a class="btn btn-primary">Get Ticket</a>
+      </div>
+    </div>
+    <div class="carousel w-full h-[550px] mt-8">
+      <div id="slide1" class="carousel-item relative w-full">
+        <img src="Images/1.png" class="w-full" />
+        <div class="absolute flex justify-between transform translate-y-20 left-5 right-5 top-1/2">
+          <div class="flex mt-20">
+            <a href="#slide4" class="btn btn-circle text-white bg-[#131318] mr-2" >❮</a> 
+            <a href="#slide2" class="btn btn-circle text-white bg-[#131318]">❯</a>
+          </div>
+          <div class="w-[556px] p-5 bg-[#131318] text-white rounded-2xl">
+              <h3 class="text-2xl font-extrabold leading-8 my-3">Meet all the heroes from the field</h3>
+              <p class="text-sm font-medium leading-6 opacity-65"> Heroes are the players who have achieved a lot from their gameplay and fair play from their entire career of hockey</p>
+          </div>
+        </div>
+      </div> 
+      <div id="slide2" class="carousel-item relative w-full">
+        <img src="Images/2.png" class="w-full" />
+        <div class="absolute flex justify-between transform translate-y-20 left-5 right-5 top-1/2">
+          <div class="flex mt-20">
+            <a href="#slide1" class="btn btn-circle text-white bg-[#131318] mr-2" >❮</a> 
+            <a href="#slide4" class="btn btn-circle text-white bg-[#131318]">❯</a>
+          </div>
+          <div class="w-[556px] p-5 bg-[#131318] text-white rounded-2xl">
+              <h3 class="text-2xl font-extrabold leading-8 my-3">Meet all the heroes from the field</h3>
+              <p class="text-sm font-medium leading-6 opacity-65"> Heroes are the players who have achieved a lot from their gameplay and fair play from their entire career of hockey</p>
+          </div>
+      </div> 
+    </div>
+  </header>
+    <main></main>
+    <footer></footer>
+    
 </body>
 </html>
