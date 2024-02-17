@@ -29,7 +29,7 @@
 
 
 
-<body class="font-manrope mx-16 items-center mt-8">
+<body class="font-manrope px-5 lg:px-16 items-center mt-8">
   <header> 
     <div class="navbar bg-base-100">
       <div>
@@ -54,44 +54,109 @@
         <a class="btn btn-primary">Get Ticket</a>
       </div>
     </div>
-    <div class="carousel w-full h-[550px] mt-8">
+    <div class="carousel w-full h-96 md:h-[550px] mt-8">
       <div id="slide1" class="carousel-item relative w-full">
         <img src="Images/1.png" class="w-full" />
-        <div class="absolute flex justify-between transform translate-y-20 left-5 right-5 top-1/2">
-          <div class="flex mt-20">
+        <div class="absolute flex justify-center lg:justify-between transform translate-y-20 left-5 right-5 top-1/2">
+          <div class="flex mt-18 md:mt-20">
             <a href="#slide4" class="btn btn-circle text-white bg-[#131318] mr-2" >❮</a> 
             <a href="#slide2" class="btn btn-circle text-white bg-[#131318]">❯</a>
           </div>
-          <div class="w-[556px] p-5 bg-[#131318] text-white rounded-2xl">
-              <h3 class="text-2xl font-extrabold leading-8 my-3">Meet all the heroes from the field</h3>
-              <p class="text-sm font-medium leading-6 opacity-65"> Heroes are the players who have achieved a lot from their gameplay and fair play from their entire career of hockey</p>
+          <div class="w-[556px] p-5 bg-[#131318] text-white rounded-2xl max-md:hidden">
+              <h3 class="text-xl lg:text-2xl font-extrabold leading-8 my-3">Meet all the heroes from the field</h3>
+              <p class="text-xs lg:text-sm font-medium leading-6 opacity-65"> Heroes are the players who have achieved a lot from their gameplay and fair play from their entire career of hockey</p>
           </div>
         </div>
       </div> 
       <div id="slide2" class="carousel-item relative w-full">
         <img src="Images/2.png" class="w-full" />
-        <div class="absolute flex justify-between transform translate-y-20 left-5 right-5 top-1/2">
-          <div class="flex mt-20">
+        <div class="absolute flex justify-center lg:justify-between transform translate-y-20 left-5 right-5 top-1/2">
+          <div class="flex mt-18 md:mt-20">
             <a href="#slide1" class="btn btn-circle text-white bg-[#131318] mr-2" >❮</a> 
             <a href="#slide4" class="btn btn-circle text-white bg-[#131318]">❯</a>
           </div>
-          <div class="w-[556px] p-5 bg-[#131318] text-white rounded-2xl">
-              <h3 class="text-2xl font-extrabold leading-8 my-3">Meet all the heroes from the field</h3>
-              <p class="text-sm font-medium leading-6 opacity-65"> Heroes are the players who have achieved a lot from their gameplay and fair play from their entire career of hockey</p>
+          <div class="w-[556px] p-5 bg-[#131318] text-white rounded-2xl max-md:hidden">
+              <h3 class="text-xl lg:text-2xl font-extrabold leading-8 my-3">Meet all the heroes from the field</h3>
+              <p class="text-xs lg:text-sm font-medium leading-6 opacity-65"> Heroes are the players who have achieved a lot from their gameplay and fair play from their entire career of hockey</p>
           </div>
-      </div> 
+        </div> 
+      </div>
     </div>
+    <div class="w-full mt-4 p-5 bg-[#131318] text-white rounded-2xl md:hidden">
+      <h3 class="text-xl lg:text-2xl font-extrabold leading-8 my-3">Meet all the heroes from the field</h3>
+      <p class="text-xs lg:text-sm font-medium leading-6 opacity-65"> Heroes are the players who have achieved a lot from their gameplay and fair play from their entire career of hockey</p>
+  </div>
   </header>
   <main>
+    <!-- professional section -->
+    <section>
+      <div class="text-center items-center mt-20 mb-10">
+        <h2 class="text-3xl font-extrabold mb-5">Professional Hockeys CLub</h2>
+        <div class="grid place-content-center"><p class="w-3/4 ml-16 text-xs font-medium"> check out our latest products from the given options and check the details as of your requirements</p></div>
+      </div>
+      <div class=" flex-col lg:flex gap-5 mt-20">
+        <div class="text-center max-lg:mb-5">
+          <div class="radial-progress text-[#FF4240]" style="--value:70;" role="progressbar"><p class="text-black font-extrabold text-xl">70%</p></div>
+           <h2 class="mt-4 text-xl font-semibold">Prayer Facility</h2>
+           <p class="text-sm font-normal mt-4 px-20">Prayer is the most important part in our daily life so we ensure that you can pray</p>
+        </div>
+        <div class="text-center max-lg:mb-5">
+          <div class="radial-progress text-[#49D293]" style="--value:95;" role="progressbar"><p class="text-black font-extrabold text-xl">95%</p></div>
+           <h2 class="mt-4 text-xl font-semibold">Prayer Facility</h2>
+           <p class="text-sm font-normal mt-4 px-20">Prayer is the most important part in our daily life so we ensure that you can pray</p> 
+        </div>
+        <div class="text-center max-lg:mb-5">
+          <div class="radial-progress text-[#FFB546]" style="--value:90;" role="progressbar"><p class="text-black font-extrabold text-xl">90%</p></div>
+           <h2 class="mt-4 text-xl font-semibold">Prayer Facility</h2>
+           <p class="text-sm font-normal mt-4 px-20">Prayer is the most important part in our daily life so we ensure that you can pray</p> 
+        </div>
+        <div class="text-center">
+          <div class="radial-progress text-[#4C8DF1]" style="--value:80;" role="progressbar"><p class="text-black font-extrabold text-xl">80%</p></div>
+           <h2 class="mt-4 text-xl font-semibold">Prayer Facility</h2>
+           <p class="text-sm font-normal mt-4 px-20">Prayer is the most important part in our daily life so we ensure that you can pray</p> 
+        </div>
+        
+      </div>
+    </section>
+ 
+   <!-- Program Section  -->
+   <section>
+    <div class="text-center items-center mt-20 mb-10">
+      <h2 class="text-2xl lg:text-3xl font-extrabold mb-5">Program Sections</h2>
+      <div class="grid place-content-center"><p class="w-3/4 ml-16 text-xs font-medium"> check out our latest products from the given options and check the details as of your requirements</p></div>
+    </div>
+    <div class="flex-col lg:flex gap-5">
+      <div class="bg-[url('Images/2.png')] bg-no-repeat rounded-2xl w-full px-8 pb-8 pt-10 text-white">
+        <h3 class="text-3xl font-extrabold lg:mt-14">Junior Program</h3>
+        <p class="text-base font-medium mt-4">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+          enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+        <button class="btn btn-primary mt-4">Register Now!</button>
+      </div>
+      <div class="bg-[url('Images/3.png')] bg-no-repeat rounded-2xl w-full max-lg:mt-5 px-8 pb-8 pt-10 text-white">
+        <h3 class="text-3xl font-extrabold lg:mt-14">Teenager Program</h3>
+        <p class="text-base font-medium mt-4">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+          enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+        <button class="btn btn-primary mt-4">Register Now!</button>
+      </div>
+    </div>
+    <div class="mt-5">
+      <div class="bg-[url('Images/4.png')] bg-no-repeat rounded-2xl w-full px-8 pb-8 pt-10 text-white">
+        <h3 class="text-3xl font-extrabold mt-32">Junior Program</h3>
+        <p class="text-base font-medium mt-4 lg:w-1/2">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
+          enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
+        <button class="btn btn-primary mt-4">Register Now!</button>
+      </div>
+    </div>
+    </section>
     <!-- card section -->
-    <section class="mt-14">
+    <section class="mt-16">
         <div class="text-center items-center mb-10">
           <h2 class="text-4xl font-extrabold mb-5">Our New Products</h2>
           <div class="grid place-content-center"><p class="w-3/4 ml-16 text-xs font-medium"> check out our latest products from the given options and check the details as of your requirements</p></div>
         </div>
-        <div class="flex gap-4">
-          <div class="card card-side bg-base-100 p-3 border-solid border-2">
-            <figure><img src="Images/5.png" alt="" /></figure>
+        <div class="lg:flex gap-4 mt-6">
+          <div class="md:card md:flex md:card-side bg-base-100 p-3 border-solid border-2 max-lg:mb-4">
+            <div class="max-md:w-full"><img class="max-md:w-full max-md:h-48 max-md:px-4 lg:mt-10"src="Images/5.png" alt="" /></div>
             <div class="card-body">
               <div class="flex">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#fa9d33" class="w-6 h-6 mr-3 opacity-50">
@@ -123,76 +188,8 @@
               </div>
             </div>
           </div>
-          <div class="card card-side bg-base-100 p-3 border-solid border-2">
-            <figure><img src="Images/6.png" alt=""/></figure>
-            <div class="card-body">
-              <div class="flex">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#fa9d33" class="w-6 h-6 mr-3 opacity-50">
-                  <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
-                </svg>
-                <p class="font-medium mr-3 opacity-50">5.0</p>
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 opacity-50 h-6 mr-3">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
-                </svg>                             
-                <p class="font-medium mr-3 opacity-50">20</p>
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 opacity-50 h-6 mr-3">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
-                </svg>                
-                <p class="font-medium mr-3 opacity-50">200</p>
-              </div>
-              <div class="mb-3">
-                  <h2 class="text-xl font-extrabold mb-3"> World Cup Flags Football</h2>
-                  <p class="text-xs font-medium opacity-80"> Flag is the unique identity of a club which determine the natural vibe of the club</p>
-              </div>
-              <div class="flex">
-                <p class="font-extrabold text-lg text-[#FF4240]">Price - $22.00</p>
-                <div class="flex gap-2">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 opacity-60  h-6">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
-                  </svg>                  
-                  <p class="opacity-50">Delivery Fee : Free</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="flex gap-4 mt-5">
-          <div class="card card-side bg-base-100  p-3 border-solid border-2">
-            <figure><img src="Images/7.png" alt="" /></figure>
-            <div class="card-body">
-              <div class="flex">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#fa9d33" class="w-6 h-6 mr-3 opacity-50">
-                  <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
-                </svg>
-                <p class="font-medium mr-3 opacity-50">5.0</p>
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 opacity-50 h-6 mr-3">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
-                </svg>                             
-                <p class="font-medium mr-3 opacity-50">20</p>
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 opacity-50 h-6 mr-3">
-                  <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
-                </svg>                
-                <p class="font-medium mr-3 opacity-50">200</p>
-              </div>
-              <div class="mb-3">
-                  <h2 class="text-xl font-extrabold mb-3"> World Cup Flags Football</h2>
-                  <p class="text-xs font-medium opacity-80"> Flag is the unique identity of a club which determine the natural vibe of the club</p>
-              </div>
-              <div class="flex">
-                <p class="font-extrabold text-lg text-[#FF4240]">Price - $22.00</p>
-                <div class="flex gap-2">
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 opacity-60  h-6">
-                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
-                  </svg>                  
-                  <p class="opacity-50">Delivery Fee : Free</p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="card card-side bg-base-100 p-3 border-solid border-2">
-            <figure><img src="Images/8.png" alt=""/></figure>
+          <div class="md:card md:flex md:card-side bg-base-100 p-3 border-solid border-2 max-lg:mb-4">
+            <div class="max-md:w-full"><img class="max-md:w-full max-md:h-48 max-md:px-4 lg:mt-10"src="Images/6.png" alt="" /></div>
             <div class="card-body">
               <div class="flex">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#fa9d33" class="w-6 h-6 mr-3 opacity-50">
@@ -225,9 +222,9 @@
             </div>
           </div>
         </div>
-        <div class="flex gap-4 mt-5">
-          <div class="card card-side bg-base-100  p-3 border-solid border-2">
-            <figure><img src="Images/9.png" alt="" /></figure>
+        <div class="lg:flex gap-4 mt-5">
+          <div class="md:card md:flex md:card-side bg-base-100 p-3 border-solid border-2 max-lg:mb-4">
+            <div class="max-md:w-full"><img class="max-md:w-full max-md:h-48 max-md:px-4 lg:mt-10"src="Images/7.png" alt="" /></div>
             <div class="card-body">
               <div class="flex">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#fa9d33" class="w-6 h-6 mr-3 opacity-50">
@@ -259,8 +256,76 @@
               </div>
             </div>
           </div>
-          <div class="card card-side bg-base-100 p-3 border-solid border-2">
-            <figure><img src="Images/10.png" alt=""/></figure>
+          <div class="md:card md:flex md:card-side bg-base-100 p-3 border-solid border-2 max-lg:mb-4">
+            <div class="max-md:w-full"><img class="max-md:w-full max-md:h-48 max-md:px-4 lg:mt-10"src="Images/8.png" alt="" /></div>
+            <div class="card-body">
+              <div class="flex">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#fa9d33" class="w-6 h-6 mr-3 opacity-50">
+                  <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                </svg>
+                <p class="font-medium mr-3 opacity-50">5.0</p>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 opacity-50 h-6 mr-3">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                </svg>                             
+                <p class="font-medium mr-3 opacity-50">20</p>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 opacity-50 h-6 mr-3">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                </svg>                
+                <p class="font-medium mr-3 opacity-50">200</p>
+              </div>
+              <div class="mb-3">
+                  <h2 class="text-xl font-extrabold mb-3"> World Cup Flags Football</h2>
+                  <p class="text-xs font-medium opacity-80"> Flag is the unique identity of a club which determine the natural vibe of the club</p>
+              </div>
+              <div class="flex">
+                <p class="font-extrabold text-lg text-[#FF4240]">Price - $22.00</p>
+                <div class="flex gap-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 opacity-60  h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                  </svg>                  
+                  <p class="opacity-50">Delivery Fee : Free</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="lg:flex gap-4 mt-5">
+          <div class="md:card md:flex md:card-side bg-base-100 p-3 border-solid border-2 max-lg:mb-4">
+            <div class="max-md:w-full"><img class="max-md:w-full max-md:h-48 max-md:px-4 lg:mt-10"src="Images/9.png" alt="" /></div>
+            <div class="card-body">
+              <div class="flex">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#fa9d33" class="w-6 h-6 mr-3 opacity-50">
+                  <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.006 5.404.434c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.434 2.082-5.005Z" clip-rule="evenodd" />
+                </svg>
+                <p class="font-medium mr-3 opacity-50">5.0</p>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 opacity-50 h-6 mr-3">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M2.036 12.322a1.012 1.012 0 0 1 0-.639C3.423 7.51 7.36 4.5 12 4.5c4.638 0 8.573 3.007 9.963 7.178.07.207.07.431 0 .639C20.577 16.49 16.64 19.5 12 19.5c-4.638 0-8.573-3.007-9.963-7.178Z" />
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" />
+                </svg>                             
+                <p class="font-medium mr-3 opacity-50">20</p>
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 opacity-50 h-6 mr-3">
+                  <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12Z" />
+                </svg>                
+                <p class="font-medium mr-3 opacity-50">200</p>
+              </div>
+              <div class="mb-3">
+                  <h2 class="text-xl font-extrabold mb-3"> World Cup Flags Football</h2>
+                  <p class="text-xs font-medium opacity-80"> Flag is the unique identity of a club which determine the natural vibe of the club</p>
+              </div>
+              <div class="flex">
+                <p class="font-extrabold text-lg text-[#FF4240]">Price - $22.00</p>
+                <div class="flex gap-2">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 opacity-60  h-6">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z" />
+                  </svg>                  
+                  <p class="opacity-50">Delivery Fee : Free</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="md:card md:flex md:card-side bg-base-100 p-3 border-solid border-2 max-lg:mb-4">
+            <div class="max-md:w-full"><img class="max-md:w-full max-md:h-48 max-md:px-4 lg:mt-10"src="Images/10.png" alt="" /></div>
             <div class="card-body">
               <div class="flex">
                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#fa9d33" class="w-6 h-6 mr-3 opacity-50">
@@ -301,7 +366,7 @@
         <h2 class="text-4xl font-extrabold mb-5">Clients Question</h2>
         <div class="grid place-content-center"><p class="w-3/4 ml-16 text-xs font-medium"> check out our latest products from the given options and check the details as of your requirements</p></div>
       </div>
-      <div class="flex border-solid border-[1px] rounded-xl p-6 gap-4 mt-6">
+      <div class="lg:flex border-solid border-[1px] rounded-xl p-6 gap-4 mt-6">
           <figure><img src="Images/11.png" alt=""></figure>
         <div class="w-3/4 divide-y-2">
           <div class="collapse collapse-plus">
@@ -368,7 +433,7 @@
         <h2 class="text-4xl font-extrabold mb-5">Clients Question</h2>
         <div class="grid place-content-center"><p class="w-3/4 ml-16 text-xs font-medium"> check out our latest products from the given options and check the details as of your requirements</p></div>
       </div>
-      <div class="flex gap-6">
+      <div class="lg:flex gap-6">
         <div class="flex flex-col gap-4 border-[1px] rounded-xl p-8">
           <div class="card w-96 p-8 bg-[#BCED6D1A]">
             <div class="w-12 h-auto mb-4"><img src="Images/Group 1171275317.png" alt="" /></div>
@@ -387,9 +452,9 @@
           </div>
         </div>
         <div class="w-full">
-          <div class="flex gap-4">
+          <div class="lg:flex gap-4">
             <div class="w-full">
-              <p class="mb-4">Nour Name</p>
+              <p class="mb-4">Your Name</p>
               <input type="text" placeholder="write your name" class="input mb-4 input-bordered input-md w-full " />
             </div>
             <div class="w-full">
@@ -397,25 +462,27 @@
               <input type="text" placeholder="write your email" class="input mb-4 input-bordered input-md w-full " />
             </div>
           </div>
-          <div class="flex gap-4">
+          <div class="lg:flex gap-4">
             <div class="w-full">
               <p class="mb-4">Subject</p>
               <input type="text" placeholder="write your subject" class="input mb-4 input-bordered input-md w-full " />
             </div>
             <div class="w-full">
               <p class="mb-4">Phone Number</p>
-              <input type="text" placeholder="write your phone number" class="input mb-4 input-bordered input-md w-full max-w-xs" />
+              <input type="text" placeholder="write your phone number" class="input mb-4 input-bordered input-md w-full " />
             </div>
           </div>
           <div>
             <p class="mb-4">Mesage</p>
-            <textarea placeholder="Write your message" class="textarea textarea-bordered h-80 w-full" ></textarea>
+            <textarea placeholder="Write your message" class="textarea textarea-bordered h-40 lg:h-80 w-full" ></textarea>
           </div>
           <button class="btn btn-primary w-full mt-5">Send Message</button>
         </div>
       </div>
     </section>
   </main>
+  
+  <!-- footer section -->
   <footer>
     <div class="text-center bg-[#13131808] p-7 rounded-lg mt-8">
       <p class="font-extrabold text-2xl">Social Media</p>
@@ -427,8 +494,8 @@
         </div>
       </div>
     </div>
-    <div class="footer p-16 w-svw ml-[-65px] bg-base-200 text-base-content mt-16 text-white bg-[#131318]">
-      <div class="">
+    <div class="footer max-md:flex-col w-svw ml-[-65px] bg-base-200 text-base-content mt-16 text-white bg-[#131318]">
+      <div class="max-md:ml-32 p-5">
         <h6 class="font-extrabold text-2xl mb-5">Get in Touch</h6> 
         <p class="w-60 mb-6 opacity-50">Dit amet consectetur. Condimentum  adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
         <div class="flex">
@@ -444,7 +511,7 @@
           <p class="ml-2 opacity-50">(+62) 123-321-543</p>
         </div>
       </div>
-      
+      <div class="flex px-16 max-md:ml-16">
       <nav>
         <h6 class="mb-7 font-extrabold text-lg">Company</h6> 
         <div class="flex flex-col gap-2 opacity-50">
@@ -464,7 +531,8 @@
           <a class="link link-hover">Contact us</a>
         </div>
       </nav> 
-      <nav>
+      </div>
+      <nav class="max-md:ml-32">
         <h6 class="mb-7 font-extrabold text-lg">Services</h6> 
         <div class="flex flex-col gap-2 opacity-50">
           <a class="link link-hover">Academy</a>
